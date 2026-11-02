@@ -1,0 +1,1199 @@
+{
+  "scope": "仅用于原提纲资本章节图表重绘的数据与出处；不改写用户段落。",
+  "checked_date_environment": "2026-11-02",
+  "presentation_as_of_requested": "2026-11-03",
+  "market_as_of": {
+    "Hong_Kong": "2026-11-02收盘",
+    "US_selloff": "2026-10-30收盘"
+  },
+  "original_data_file": "work/finance_data.json",
+  "sources": [
+    {
+      "id": "anthropic_s1_current",
+      "title": "Anthropic, PBC — Form S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "date": "2026-10-26",
+      "type": "SEC原始申报",
+      "refs": [
+        "turn12view2",
+        "turn15view0",
+        "turn15view1"
+      ],
+      "supports": "2026Q1/Q2收入、营业利润及股票薪酬；H1收入及非现金公允价值变动。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "openai_q2_current",
+      "title": "OpenAI’s Second-Quarter Sales Show Tepid Growth Compared With Anthropic",
+      "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
+      "date": "2026-08-18",
+      "type": "WSJ原报道；知情人士",
+      "refs": [
+        "turn18view3",
+        "turn21search5"
+      ],
+      "supports": "Q1收入57亿美元、Q2收入67亿美元；营业亏损93亿、123亿美元（含股权薪酬）。收入直接正文可读，亏损数额见原报道搜索摘录/存档。",
+      "status": "rechecked_media_report_not_public_audited_financials"
+    },
+    {
+      "id": "anthropic_series_h_current",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "date": "2026-05-28",
+      "type": "公司公告",
+      "refs": [
+        "turn12view0"
+      ],
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "openai_march_current",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "date": "2026-03-31",
+      "type": "公司公告",
+      "refs": [
+        "turn12view1"
+      ],
+      "status": "opened_and_values_rechecked",
+      "metric_note": "1220亿美元为committed capital（承诺资本）。"
+    },
+    {
+      "id": "openai_oct_commitments",
+      "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "date": "2026-10-31T01:56:00Z",
+      "type": "WSJ原报道；知情人士",
+      "refs": [
+        "turn26news9",
+        "turn40view0"
+      ],
+      "supports": "已落实约110亿美元承诺，对比原300亿美元目标；仍希望募集至200亿美元；估值1.25万亿美元。",
+      "status": "primary_news_report_search_content_available_article_paywalled"
+    },
+    {
+      "id": "openai_oct_revised_target",
+      "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports (Oct. 30)",
+      "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
+      "mirror_url": "https://www.investing.com/news/economy-news/openai-slashes-funding-target-by-10-billion-amid-tech-rout-ft-reports-oct-30-4990653",
+      "date": "2026-10-30",
+      "type": "Reuters转引FT",
+      "refs": [
+        "turn21news6",
+        "turn21search0"
+      ],
+      "supports": "目标300亿降至200亿美元；期望估值1.4万亿降至1.25万亿美元；首轮交割预期少于200亿美元。",
+      "status": "rechecked"
+    },
+    {
+      "id": "anthropic_ipo_expectation",
+      "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+      "url": "https://live.euronext.com/en/financial-news/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown",
+      "date": "2026-10-15",
+      "type": "Reuters原报道的交易所转载",
+      "refs": [
+        "turn51search1",
+        "turn51search0"
+      ],
+      "supports": "部分投资者讨论IPO估值约1.5万亿美元，原市场预期约2万亿美元；不是公司正式发行定价。",
+      "status": "rechecked"
+    },
+    {
+      "id": "anthropic_rating_expectation",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone tells investors",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "date": "2026-10-30",
+      "type": "FT原报道；Blackstone预期",
+      "refs": [
+        "turn21news8"
+      ],
+      "supports": "上市后评级为BB档/高垃圾级的预期；三大机构尚未正式给出Anthropic评级。",
+      "status": "search_verified_full_article_unavailable"
+    },
+    {
+      "id": "anthropic_kbra_prior",
+      "title": "Anthropic secured highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "mirror_url": "https://finance.yahoo.com/technology/ai/articles/anthropic-secured-highest-junk-credit-040018773.html",
+      "date": "2026-10-16",
+      "type": "FT查阅文件；非公开评级报告",
+      "refs": [
+        "turn21search4",
+        "turn51search2"
+      ],
+      "supports": "FT报道KBRA于2026年6月给Anthropic发行人BB+，与上市后三大机构评级预期及North Star项目债评级不同。",
+      "status": "reported_not_direct_kbra_report"
+    },
+    {
+      "id": "revenue_mix_estimates_current",
+      "title": "Anthropic 3Q26 Profit Over $1B: The Anthropic IPO Financials Sneak Peak",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-the",
+      "date": "2026-07-08",
+      "type": "SemiAnalysis研究估算；用户图另署华泰研究",
+      "refs": [
+        "turn18view4"
+      ],
+      "supports": "文章及方法来源确认；付费图表未能读取，百分比仅按用户原图近似转录。",
+      "status": "source_verified_values_from_original_image"
+    },
+    {
+      "id": "zhipu_financing_july_current",
+      "title": "智谱：完成根据一般授权配售新H股",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300663_c.pdf",
+      "date": "2026-07-13",
+      "type": "HKEX公司原始公告",
+      "refs": [
+        "turn31view0",
+        "turn32view5"
+      ],
+      "supports": "7月配售31374.95百万港元净额；1/2月IPO及绿鞋合计4896.17百万港元净额；IPO价116.20港元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "zhipu_financing_sept_current",
+      "title": "智谱：完成配售新H股及发行人民币201.4亿元美元结算零息可换股债券",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091800400_c.pdf",
+      "date": "2026-09-18",
+      "type": "HKEX公司原始公告",
+      "refs": [
+        "turn31view1"
+      ],
+      "supports": "9/16配售净额15664.13百万港元；9/18债券净额23610.24百万港元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_ipo_current",
+      "title": "MiniMax Final Offer Price and Allotment Results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0108/2026010801342.pdf",
+      "date": "2026-01-08",
+      "type": "HKEX公司原始公告",
+      "refs": [
+        "turn32view0",
+        "turn40view5"
+      ],
+      "supports": "IPO净额4596.1百万港元；发行价165港元；1月9日上市。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_greenshoe_current",
+      "title": "MiniMax Full Exercise of the Over-allotment Option",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0111/2026011100015.pdf",
+      "date": "2026-01-11",
+      "type": "HKEX公司原始公告",
+      "refs": [
+        "turn32view1",
+        "turn40view6"
+      ],
+      "supports": "绿鞋额外净额697.29百万港元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_financing_july_current",
+      "title": "MiniMax Completion of Placing and Issue of HKD6,500 Million Zero Coupon Guaranteed Convertible Bonds",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0716/2026071601147.pdf",
+      "date": "2026-07-16",
+      "type": "HKEX公司原始公告",
+      "refs": [
+        "turn31view2",
+        "turn32view6"
+      ],
+      "supports": "7/14配售净额9443.71百万港元；7/16债券净额6433.3百万港元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "zhipu_h1_current",
+      "title": "智谱截至2026年6月30日止六个月中期业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101540_c.pdf",
+      "date": "2026-08-31",
+      "type": "HKEX公司原始公告；未经审计",
+      "refs": [
+        "turn31view3"
+      ],
+      "supports": "收入、研发、毛利、IFRS期内亏损及非IFRS调整后净亏损。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_h1_current",
+      "title": "MiniMax Interim Results Announcement for the Six Months Ended June 30, 2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "date": "2026-08-26",
+      "type": "HKEX公司原始公告；未经审计",
+      "refs": [
+        "turn31view4",
+        "turn32view7"
+      ],
+      "supports": "收入、研发、毛利、IFRS期内亏损及非IFRS调整后净亏损。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "zhipu_prices_current",
+      "title": "智谱历史行情",
+      "url": "https://cn.investing.com/equities/knowledge-atlas-tech-joint-stock-historical-data",
+      "date": "2026-11-02",
+      "type": "行情服务",
+      "refs": [
+        "turn9search4",
+        "turn40view4",
+        "turn42view0"
+      ],
+      "supports": "10/30收盘483.60；11/2收盘480.40港元，涨跌-9.10%、-0.66%。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "zhipu_etnet_current",
+      "title": "02513 智谱报价",
+      "url": "https://content.etnet.com.hk/content/cpyrevamp/sc/stock_quote.php?code=02513",
+      "date": "2026-11-02T16:15:00+08:00",
+      "type": "经济通行情",
+      "refs": [
+        "turn9search6"
+      ],
+      "supports": "收盘480.40；前收483.60；52周最高2980港元。",
+      "status": "rechecked"
+    },
+    {
+      "id": "minimax_prices_current",
+      "title": "00100 MINIMAX-W报价",
+      "url": "https://content.etnet.com.hk/content/cpyrevamp/sc/stock_quote.php?code=00100",
+      "date": "2026-11-02T16:15:00+08:00",
+      "type": "经济通行情",
+      "refs": [
+        "turn40view3"
+      ],
+      "supports": "11/2收盘169.00；前收161.30；涨跌4.774%；52周最高1330港元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_history_current",
+      "title": "MiniMax Group historical data",
+      "url": "https://jp.investing.com/equities/minimax-group-inc-historical-data",
+      "date": "2026-11-02",
+      "type": "行情服务",
+      "refs": [
+        "turn9search8"
+      ],
+      "supports": "搜索摘录11/2收盘169.00、10/30收盘161.30、涨跌-4.05%。直接打开时返回10/27缓存页，不使用该缓存页当11/2数据。",
+      "status": "search_verified_crosschecked_etnet"
+    },
+    {
+      "id": "zhipu_peak",
+      "title": "智谱市值突破万亿 大模型公司估值锚点已然切换？",
+      "url": "https://api3.cls.cn/share/article/2405414?app=stib&os=ios&sv=204BZ3",
+      "date": "2026-06-22",
+      "type": "科创板日报原报道",
+      "refs": [
+        "turn40view2",
+        "turn10search0"
+      ],
+      "supports": "6月22日盘中2980港元；与经济通52周最高相符。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "minimax_peak",
+      "title": "同路与分野：MiniMax、智谱A股再聚首，市值分化又迎解禁考",
+      "url": "https://www.stcn.com/article/detail/3938234.html",
+      "date": null,
+      "type": "证券时报原报道",
+      "refs": [
+        "turn48search0"
+      ],
+      "supports": "3月18日盘中1330港元；当日收盘1238；与经济通52周最高相符。",
+      "status": "search_verified"
+    },
+    {
+      "id": "zhipu_first_close",
+      "title": "智谱上市：一场关于AGI商业化的资本测试",
+      "url": "https://finance.sina.com.cn/jjxw/2026-01-08/doc-inhfqyhr1268208.shtml",
+      "date": "2026-01-08",
+      "type": "北京商报转载",
+      "refs": [
+        "turn35search6"
+      ],
+      "supports": "首日收盘131.5港元。",
+      "status": "search_verified"
+    },
+    {
+      "id": "minimax_first_close",
+      "title": "中国证券报2026年1月10日A04",
+      "url": "https://epaper.cs.com.cn/zgzqb/images/2026-01/10/A04/zqDB0310.pdf",
+      "date": "2026-01-10",
+      "type": "中国证券报",
+      "refs": [
+        "turn37search5"
+      ],
+      "supports": "1月9日收盘345港元；上市首日涨109.09%。",
+      "status": "search_verified"
+    },
+    {
+      "id": "alphabet_q3_current",
+      "title": "Alphabet Announces Third Quarter 2026 Results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "date": "2026-10-28",
+      "type": "SEC原始业绩公告",
+      "refs": [
+        "turn10search5",
+        "turn15view4",
+        "turn46view1"
+      ],
+      "supports": "Q3收入127577百万美元；OCF42290、capex51355、FCF-9065；同期TTM FCF19747百万美元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "amazon_q3_current",
+      "title": "Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+      "date": "2026-10-29",
+      "type": "公司原始业绩公告",
+      "refs": [
+        "turn12view3",
+        "turn15view2",
+        "turn15view3",
+        "turn46view2"
+      ],
+      "supports": "AWS增速39.3%；TTM自由现金流-42357百万美元；2026现金capex指引约2200亿美元。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "intel_q3_current",
+      "title": "Intel Reports Third-Quarter 2026 Financial Results",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "date": "2026-10-29",
+      "type": "公司原始业绩公告",
+      "refs": [
+        "turn12view4",
+        "turn15view5"
+      ],
+      "supports": "Q3收入165亿美元，nonGAAP EPS0.52；Q4收入指引150-160亿美元，nonGAAP EPS0.25。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "market_oct30_current",
+      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+      "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+      "date": "2026-10-30",
+      "type": "Reuters原报道",
+      "refs": [
+        "turn9news9",
+        "turn10news8"
+      ],
+      "supports": "三大指数及SOX当天跌幅，英特尔、英伟达、AMD跌幅及AI资本开支担忧背景。",
+      "status": "rechecked"
+    },
+    {
+      "id": "nvda_history_current",
+      "title": "NVIDIA Stock Price History",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "date": "2026-10-30",
+      "type": "StockAnalysis历史行情",
+      "refs": [
+        "turn12view6"
+      ],
+      "supports": "10/30收204.64美元，跌4.22%。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "amd_history_current",
+      "title": "Advanced Micro Devices Stock Price History",
+      "url": "https://stockanalysis.com/stocks/amd/history/",
+      "date": "2026-10-30",
+      "type": "StockAnalysis历史行情",
+      "refs": [
+        "turn32view3",
+        "turn40view7"
+      ],
+      "supports": "10/30收504.80美元，跌10.88%。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "intc_history_current",
+      "title": "Intel Stock Price History",
+      "url": "https://stockanalysis.com/stocks/intc/history/",
+      "date": "2026-10-30",
+      "type": "StockAnalysis历史行情",
+      "refs": [
+        "turn32view4",
+        "turn40view8"
+      ],
+      "supports": "10/30收65.76美元，跌28.58%。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "avgo_history_current",
+      "title": "Broadcom Stock Price History",
+      "url": "https://stockanalysis.com/stocks/avgo/history/",
+      "date": "2026-10-30",
+      "type": "StockAnalysis历史行情",
+      "refs": [
+        "turn12view5"
+      ],
+      "supports": "10/30收326.08美元，跌5.48%。FinanceCharts返回326.99/-5.22冲突，弃用。",
+      "status": "opened_and_values_rechecked"
+    },
+    {
+      "id": "index_weekly",
+      "title": "一周国际财经",
+      "url": "https://m.nbd.com.cn/articles/2026-10-31/4633128.html",
+      "date": "2026-10-31",
+      "type": "每日经济新闻",
+      "refs": [
+        "turn37search1"
+      ],
+      "supports": "标普500周跌0.57%、道指周跌0.85%、纳指周跌2%、SOX周跌0.84%；当日SOX跌7.2%。",
+      "status": "rechecked"
+    },
+    {
+      "id": "rut_history",
+      "title": "Russell 2000 Index Historical Data",
+      "url": "https://finance.yahoo.com/quote/%5ERUT/history/",
+      "date": "2026-10-30",
+      "type": "Yahoo历史行情",
+      "refs": [
+        "turn48search4",
+        "turn48search5"
+      ],
+      "supports": "10/30收2811.84，10/29收2859.22，10/23收2775.90；计算日-1.66%、周+1.29%。",
+      "status": "search_verified"
+    },
+    {
+      "id": "sox_close",
+      "title": "PHLX Semiconductor Sector — Live Performance & Historical Returns",
+      "url": "https://ycharts.com/indices/%5ESOX",
+      "date": "2026-10-30",
+      "type": "YCharts行情",
+      "refs": [
+        "turn35search2"
+      ],
+      "supports": "SOX收10688.80，跌7.20%。",
+      "status": "search_verified"
+    },
+    {
+      "id": "index_closes",
+      "title": "美股收盘：三大指数全线收跌",
+      "url": "https://finance.eastmoney.com/a/202610313917331158.html",
+      "date": "2026-10-31",
+      "type": "中新经纬转载",
+      "refs": [
+        "turn9search2"
+      ],
+      "supports": "三大指数收盘值7580.07、25437.00、51770.31。",
+      "status": "rechecked"
+    },
+    {
+      "id": "anthropic_arr",
+      "title": "Anthropic revenue run rate tops $65 billion, source says",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-run-rate-tops-65-billion-source-says-4864031",
+      "date": "2026-08-17",
+      "source_type": "Reuters；知情人士",
+      "claims": {
+        "as_of": "2026-07月底",
+        "annualized_usd_billion": 65
+      },
+      "match_status": "verified",
+      "limitations": "年化运行率，不是全年已实现收入。",
+      "images": [
+        "image9.jpeg"
+      ],
+      "status": "from_existing_verification_file_not_reopened_this_subtask"
+    },
+    {
+      "id": "openai_arr",
+      "title": "OpenAI’s September annualized revenue nears $50 billion, less than previously indicated, source says",
+      "url": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/",
+      "date": "2026-10-08",
+      "source_type": "Reuters；知情人士",
+      "claims": {
+        "as_of": "2026-09",
+        "annualized_usd_billion": "接近50"
+      },
+      "match_status": "verified",
+      "limitations": "与Anthropic的统计时点、云渠道会计口径不同，不能画成严格同口径比较。",
+      "images": [
+        "image9.jpeg"
+      ],
+      "status": "from_existing_verification_file_not_reopened_this_subtask"
+    },
+    {
+      "id": "tsm_history_current",
+      "title": "Taiwan Semiconductor Manufacturing Company (TSM) Stock Price History",
+      "url": "https://stockanalysis.com/stocks/tsm/history/",
+      "date": "2026-10-30",
+      "type": "StockAnalysis历史行情；页面标注S&P Global Market Intelligence数据",
+      "refs": [
+        "turn65view0"
+      ],
+      "supports": "10/30 TSM ADR收盘406.13美元，跌5.95%；10/29收431.81美元。",
+      "status": "opened_and_values_rechecked"
+    }
+  ],
+  "chart_data": {
+    "quarterly_revenue_operating_income": [
+      {
+        "company": "Anthropic",
+        "period": "2026Q1",
+        "revenue_100m_usd": 47.31,
+        "revenue_usd_billion": 4.731,
+        "operating_income_100m_usd": -16.67,
+        "operating_income_usd_billion": -1.6670000000000003,
+        "operating_margin_calculated_pct": -35.236,
+        "source_id": "anthropic_s1_current",
+        "metric": "营业利润/亏损，含股票薪酬；不是调整后净利润"
+      },
+      {
+        "company": "Anthropic",
+        "period": "2026Q2",
+        "revenue_100m_usd": 115.55,
+        "revenue_usd_billion": 11.555,
+        "operating_income_100m_usd": 9.74,
+        "operating_income_usd_billion": 0.974,
+        "operating_margin_calculated_pct": 8.429,
+        "source_id": "anthropic_s1_current",
+        "metric": "营业利润/亏损，含股票薪酬；不是调整后净利润"
+      },
+      {
+        "company": "OpenAI",
+        "period": "2026Q1",
+        "revenue_100m_usd": 57,
+        "revenue_usd_billion": 5.7,
+        "operating_income_100m_usd": -93,
+        "operating_income_usd_billion": -9.3,
+        "operating_margin_calculated_pct": -163.158,
+        "source_id": "openai_q2_current",
+        "metric": "营业利润/亏损，含股票薪酬；不是调整后净利润"
+      },
+      {
+        "company": "OpenAI",
+        "period": "2026Q2",
+        "revenue_100m_usd": 67,
+        "revenue_usd_billion": 6.7,
+        "operating_income_100m_usd": -123,
+        "operating_income_usd_billion": -12.3,
+        "operating_margin_calculated_pct": -183.582,
+        "source_id": "openai_q2_current",
+        "metric": "营业利润/亏损，含股票薪酬；不是调整后净利润"
+      }
+    ],
+    "valuation_last_completed_round": [
+      {
+        "company": "Anthropic",
+        "round": "2026-05 Series H",
+        "raise_usd_billion": 65,
+        "post_money_usd_billion": 965,
+        "source_id": "anthropic_series_h_current"
+      },
+      {
+        "company": "OpenAI",
+        "round": "2026-03",
+        "committed_capital_usd_billion": 122,
+        "post_money_usd_billion": 852,
+        "source_id": "openai_march_current"
+      }
+    ],
+    "valuation_expectations": [
+      {
+        "company": "Anthropic",
+        "expected_ipo_valuation_usd_trillion": 1.5,
+        "prior_market_expectation_usd_trillion": 2,
+        "status": "部分投资者讨论，非公司正式定价",
+        "source_id": "anthropic_ipo_expectation"
+      },
+      {
+        "company": "OpenAI",
+        "reported_new_round_valuation_usd_trillion": 1.25,
+        "prior_target_usd_trillion": 1.4,
+        "status": "报道中的融资估值，未公告完成",
+        "source_ids": [
+          "openai_oct_commitments",
+          "openai_oct_revised_target"
+        ]
+      }
+    ],
+    "annualized_run_rate": [
+      {
+        "company": "Anthropic",
+        "annualized_run_rate_usd_billion": 65,
+        "as_of": "2026-07月底",
+        "qualifier": "约；Reuters引知情人士",
+        "source_id": "anthropic_arr"
+      },
+      {
+        "company": "OpenAI",
+        "annualized_run_rate_usd_billion": 50,
+        "as_of": "2026-09月底",
+        "qualifier": "接近；Reuters引知情人士",
+        "source_id": "openai_arr"
+      }
+    ],
+    "compute_gw": {
+      "data": [
+        {
+          "company": "Anthropic",
+          "2025_actual_gw": 1.5,
+          "2026_expected_gw": 5,
+          "2027_expected_gw": 10
+        },
+        {
+          "company": "OpenAI",
+          "2025_actual_gw": 2,
+          "2026_expected_gw": 5,
+          "2027_expected_gw": 10
+        }
+      ],
+      "source": "用户原图9",
+      "status": "未逐项独立核验",
+      "footnote": "2026/2027为预期，2025原图称实际；两家公司完整三年GW数据仅按原图转录。"
+    },
+    "revenue_mix_estimates": {
+      "data": [
+        {
+          "company": "Anthropic",
+          "period": "2026E",
+          "api_usage_percent": 80,
+          "subscription_percent": 15
+        },
+        {
+          "company": "OpenAI",
+          "period": "2026Q1",
+          "api_usage_percent": 35,
+          "subscription_percent": 65
+        }
+      ],
+      "source_id": "revenue_mix_estimates_current",
+      "status": "图中柱高近似读数；2026E为预测",
+      "footnote": "2026E与2026Q1期间不同；Anthropic两项合计95%，保留原图未说明的5%，不归一化或补造。"
+    },
+    "customer_mix_estimates": {
+      "data": [
+        {
+          "company": "Anthropic",
+          "period": "2026E",
+          "consumer_percent": 5,
+          "enterprise_percent": 95
+        },
+        {
+          "company": "OpenAI",
+          "period": "2026Q1",
+          "consumer_percent": 60,
+          "enterprise_percent": 40
+        },
+        {
+          "company": "OpenAI",
+          "period": "2026Q2E end",
+          "consumer_percent": 40,
+          "enterprise_percent": 60
+        }
+      ],
+      "source_id": "revenue_mix_estimates_current",
+      "status": "图中柱高近似读数；包含预测",
+      "footnote": "2026E、2026Q1、2026Q2E期末估计口径不同。"
+    },
+    "china_financing_events": [
+      {
+        "company": "智谱",
+        "event": "IPO及超额配售",
+        "completed": "2026-01-08；2026-02-04",
+        "net_proceeds": 48.96,
+        "exact_net_proceeds_million_hkd": 4896.17,
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300663_c.pdf",
+        "title": "完成根据一般授权配售新H股（第7页回顾IPO及绿鞋）",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "IPO及绿鞋合计在公告中写约4896.2百万港元，使用明细表4896.17百万。发行价116.20港元。",
+        "source_ids": [
+          "zhipu_financing_july_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 48.9617,
+        "financing_category": "equity"
+      },
+      {
+        "company": "智谱",
+        "event": "7月配售",
+        "completed": "2026-07-13",
+        "net_proceeds": 313.75,
+        "exact_net_proceeds_million_hkd": 31374.95,
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300663_c.pdf",
+        "title": "完成根据一般授权配售新H股",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "1978万股，每股1588港元。",
+        "source_ids": [
+          "zhipu_financing_july_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 313.7495,
+        "financing_category": "equity"
+      },
+      {
+        "company": "智谱",
+        "event": "9月配售",
+        "completed": "2026-09-16",
+        "net_proceeds": 156.64,
+        "exact_net_proceeds_million_hkd": 15664.13,
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091800400_c.pdf",
+        "title": "完成配售新H股及发行人民币201.4亿元美元结算零息可换股债券",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "2196.5万股，每股714港元；9月18日公告披露9月16日完成配售。",
+        "source_ids": [
+          "zhipu_financing_sept_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 156.6413,
+        "financing_category": "equity"
+      },
+      {
+        "company": "智谱",
+        "event": "零息可转债",
+        "completed": "2026-09-18",
+        "net_proceeds": 236.1,
+        "exact_net_proceeds_million_hkd": 23610.24,
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091800400_c.pdf",
+        "title": "完成配售新H股及发行人民币201.4亿元美元结算零息可换股债券",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "本金人民币201.4亿元；美元结算，2027年到期。净额3010.77百万美元，相当于23610.24百万港元。",
+        "source_ids": [
+          "zhipu_financing_sept_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 236.1024,
+        "financing_category": "convertible_debt"
+      },
+      {
+        "company": "MiniMax",
+        "event": "IPO及超额配售",
+        "completed": "2026-01-09；2026-01-14",
+        "net_proceeds": 52.93,
+        "exact_net_proceeds_million_hkd": 5293.39,
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0108/2026010801342.pdf",
+        "additional_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0111/2026011100015.pdf",
+        "title": "Final Offer Price and Allotment Results；Full Exercise of the Over-allotment Option",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "原IPO净额4596.1百万港元，绿鞋新增净额697.29百万，合计5293.39百万。发售价165港元；1月9日行使绿鞋，额外股份1月14日开始交易。",
+        "source_ids": [
+          "minimax_ipo_current",
+          "minimax_greenshoe_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 52.9339,
+        "financing_category": "equity"
+      },
+      {
+        "company": "MiniMax",
+        "event": "7月配售",
+        "completed": "2026-07-14",
+        "net_proceeds": 94.44,
+        "exact_net_proceeds_million_hkd": 9443.71,
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0716/2026071601147.pdf",
+        "title": "Completion of Placing and Issue of HKD6,500 Million Zero Coupon Guaranteed Convertible Bonds",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "3560万股，每股268港元；7月16日公告披露7月14日完成配售。",
+        "source_ids": [
+          "minimax_financing_july_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 94.4371,
+        "financing_category": "equity"
+      },
+      {
+        "company": "MiniMax",
+        "event": "零息担保可转债",
+        "completed": "2026-07-16",
+        "net_proceeds": 64.33,
+        "exact_net_proceeds_million_hkd": 6433.3,
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0716/2026071601147.pdf",
+        "title": "Completion of Placing and Issue of HKD6,500 Million Zero Coupon Guaranteed Convertible Bonds",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "本金65亿港元，2027年到期，净额6433.3百万港元。",
+        "source_ids": [
+          "minimax_financing_july_current"
+        ],
+        "net_proceeds_100m_hkd_exact": 64.333,
+        "financing_category": "convertible_debt"
+      }
+    ],
+    "china_financing_totals": [
+      {
+        "company": "智谱",
+        "total_100m_hkd": 755.45,
+        "equity_100m_hkd": 519.35,
+        "convertible_100m_hkd": 236.1
+      },
+      {
+        "company": "MiniMax",
+        "total_100m_hkd": 211.7,
+        "equity_100m_hkd": 147.37,
+        "convertible_100m_hkd": 64.33
+      }
+    ],
+    "china_financing_totals_exact": [
+      {
+        "company": "智谱",
+        "equity_100m_hkd": 519.3525,
+        "convertible_100m_hkd": 236.1024,
+        "total_100m_hkd": 755.4549
+      },
+      {
+        "company": "MiniMax",
+        "equity_100m_hkd": 147.371,
+        "convertible_100m_hkd": 64.333,
+        "total_100m_hkd": 211.704
+      }
+    ],
+    "china_h1_financials": [
+      {
+        "company": "智谱",
+        "period": "2026H1",
+        "unit": "人民币千元",
+        "revenue": 953892,
+        "revenue_yoy_pct": 399.7,
+        "rnd": 2131171,
+        "rnd_yoy_pct": 33.6,
+        "gross_profit": 251611,
+        "gross_margin_pct": 26.4,
+        "prior_gross_margin_pct": 50.0,
+        "ifrs_loss": 2071992,
+        "prior_ifrs_loss": 2357852,
+        "ifrs_loss_change_pct": -12.1,
+        "adjusted_loss_non_ifrs": 1964138,
+        "prior_adjusted_loss": 1751974,
+        "adjusted_loss_change_pct": 12.1,
+        "gross_profit_rnd_coverage_pct": 11.806232,
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101540_c.pdf",
+        "title": "智谱截至2026年6月30日止六个月中期业绩公告",
+        "date": "2026-08-31",
+        "type": "HKEX公司公告",
+        "match": "confirmed",
+        "notes": "营收和研发换算为亿元人民币分别9.53892、21.31171；调整后净亏损19.64138亿元。研发覆盖率据同一报表计算。",
+        "source_id": "zhipu_h1_current",
+        "currency": "CNY",
+        "revenue_100m": 9.53892,
+        "rnd_100m": 21.31171,
+        "gross_profit_100m": 2.51611,
+        "ifrs_loss_100m": 20.71992,
+        "adjusted_loss_non_ifrs_100m": 19.64138,
+        "rnd_revenue_multiple": 2.234185,
+        "revenue_rnd_coverage_pct": 44.759055
+      },
+      {
+        "company": "MiniMax",
+        "period": "2026H1",
+        "unit": "千美元",
+        "revenue": 116573,
+        "revenue_yoy_pct": 283.1,
+        "rnd": 296870,
+        "rnd_yoy_pct": 138.8,
+        "gross_profit": 20813,
+        "gross_margin_pct": 17.9,
+        "prior_gross_margin_pct": 12.1,
+        "ifrs_loss": 357997,
+        "prior_ifrs_loss": 402188,
+        "ifrs_loss_change_pct": -11.0,
+        "adjusted_loss_non_ifrs": 293031,
+        "prior_adjusted_loss": 138735,
+        "adjusted_loss_change_pct": 111.2,
+        "gross_profit_rnd_coverage_pct": 7.010813,
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+        "additional_url": "https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160",
+        "title": "MiniMax Interim Results Announcement for the Six Months Ended June 30, 2026",
+        "date": "2026-08-26",
+        "type": "HKEX公司公告及公司新闻稿",
+        "match": "confirmed",
+        "notes": "营收116.573百万美元、研发296.870百万美元、调整后净亏损293.031百万美元。不可与智谱人民币金额直接比较。",
+        "source_id": "minimax_h1_current",
+        "currency": "USD",
+        "revenue_100m": 1.16573,
+        "rnd_100m": 2.9687,
+        "gross_profit_100m": 0.20813,
+        "ifrs_loss_100m": 3.57997,
+        "adjusted_loss_non_ifrs_100m": 2.93031,
+        "rnd_revenue_multiple": 2.546645,
+        "revenue_rnd_coverage_pct": 39.267356
+      }
+    ],
+    "china_stock_price_milestones": [
+      {
+        "company": "智谱",
+        "ticker": "02513.HK",
+        "listing_date": "2026-01-08",
+        "ipo": 116.2,
+        "first_close": 131.5,
+        "first_day_return_percent": 13.17,
+        "intraday_high": 2980,
+        "high_date": "2026-06-22",
+        "close": 480.4,
+        "from_ipo_percent": 313.43,
+        "from_high_percent": -83.88,
+        "market_cap_hkd_100m": 2342,
+        "oct30_close_hkd": 483.6,
+        "oct30_change_pct": -9.1,
+        "nov2_close_hkd": 480.4,
+        "nov2_change_pct": -0.662,
+        "from_ipo_pct_calculated": 313.4251,
+        "from_peak_pct_calculated": -83.8792,
+        "first_day_return_pct_calculated": 13.167,
+        "data_type": "离散价位；发行价、首日收盘、盘中年内高点、10/30收盘、11/2收盘",
+        "source_ids": [
+          "zhipu_financing_july_current",
+          "zhipu_first_close",
+          "zhipu_peak",
+          "zhipu_prices_current",
+          "zhipu_etnet_current"
+        ]
+      },
+      {
+        "company": "MiniMax",
+        "ticker": "00100.HK",
+        "listing_date": "2026-01-09",
+        "ipo": 165.0,
+        "first_close": 345.0,
+        "first_day_return_percent": 109.09,
+        "intraday_high": 1330,
+        "high_date": "2026-03-18",
+        "close": 169.0,
+        "from_ipo_percent": 2.42,
+        "from_high_percent": -87.29,
+        "market_cap_hkd_100m": 596,
+        "oct30_close_hkd": 161.3,
+        "oct30_change_pct": -4.05,
+        "nov2_close_hkd": 169.0,
+        "nov2_change_pct": 4.774,
+        "from_ipo_pct_calculated": 2.4242,
+        "from_peak_pct_calculated": -87.2932,
+        "first_day_return_pct_calculated": 109.0909,
+        "data_type": "离散价位；发行价、首日收盘、盘中年内高点、10/30收盘、11/2收盘",
+        "source_ids": [
+          "minimax_ipo_current",
+          "minimax_first_close",
+          "minimax_peak",
+          "minimax_prices_current",
+          "minimax_history_current"
+        ]
+      }
+    ],
+    "market_indices_oct30": [
+      {
+        "index": "标普500",
+        "close": 7580.07,
+        "friday_percent": -1.82,
+        "week_percent": -0.57,
+        "date": "2026-10-30",
+        "unit_close": "指数点",
+        "source_ids": [
+          "index_closes",
+          "index_weekly",
+          "market_oct30_current"
+        ],
+        "status": "rechecked"
+      },
+      {
+        "index": "纳斯达克综合",
+        "close": 25437.0,
+        "friday_percent": -2.86,
+        "week_percent": -2.0,
+        "date": "2026-10-30",
+        "unit_close": "指数点",
+        "source_ids": [
+          "index_closes",
+          "index_weekly",
+          "market_oct30_current"
+        ],
+        "status": "rechecked"
+      },
+      {
+        "index": "道琼斯工业",
+        "close": 51770.31,
+        "friday_percent": -1.09,
+        "week_percent": -0.85,
+        "date": "2026-10-30",
+        "unit_close": "指数点",
+        "source_ids": [
+          "index_closes",
+          "index_weekly",
+          "market_oct30_current"
+        ],
+        "status": "rechecked"
+      },
+      {
+        "index": "罗素2000",
+        "close": 2811.84,
+        "friday_percent": -1.66,
+        "week_percent": 1.29,
+        "date": "2026-10-30",
+        "unit_close": "指数点",
+        "source_ids": [
+          "rut_history"
+        ],
+        "status": "rechecked"
+      },
+      {
+        "index": "费城半导体",
+        "close": 10688.8,
+        "friday_percent": -7.2,
+        "week_percent": -0.84,
+        "date": "2026-10-30",
+        "unit_close": "指数点",
+        "source_ids": [
+          "sox_close",
+          "index_weekly",
+          "market_oct30_current"
+        ],
+        "status": "rechecked"
+      }
+    ],
+    "chips_oct30": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "date": "2026-10-30",
+        "close_usd": 65.76,
+        "day_change_pct": -28.58,
+        "source_id": "intc_history_current"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "date": "2026-10-30",
+        "close_usd": 504.8,
+        "day_change_pct": -10.88,
+        "source_id": "amd_history_current"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "date": "2026-10-30",
+        "close_usd": 204.64,
+        "day_change_pct": -4.22,
+        "source_id": "nvda_history_current"
+      },
+      {
+        "name": "台积电ADR",
+        "ticker": "TSM",
+        "date": "2026-10-30",
+        "close_usd": 406.13,
+        "day_change_pct": -5.95,
+        "source_id": "tsm_history_current"
+      }
+    ],
+    "cash_flow": [
+      {
+        "company": "Alphabet",
+        "period": "2026Q3",
+        "free_cash_flow_usd_billion": -9.065,
+        "operating_cash_flow_usd_billion": 42.29,
+        "capex_usd_billion": 51.355,
+        "revenue_usd_billion": 127.577,
+        "source_id": "alphabet_q3_current"
+      },
+      {
+        "company": "Amazon",
+        "period": "TTM截至2026Q3",
+        "free_cash_flow_usd_billion": -42.357,
+        "source_id": "amazon_q3_current"
+      }
+    ],
+    "alphabet_fcf_quarterly": [
+      {
+        "period": "2025Q4",
+        "free_cash_flow_usd_billion": 24.551
+      },
+      {
+        "period": "2026Q1",
+        "free_cash_flow_usd_billion": 10.116
+      },
+      {
+        "period": "2026Q2",
+        "free_cash_flow_usd_billion": -5.855
+      },
+      {
+        "period": "2026Q3",
+        "free_cash_flow_usd_billion": -9.065
+      }
+    ],
+    "amazon_metrics": {
+      "AWS_q3_revenue_growth_pct": 39.3,
+      "AWS_q3_revenue_usd_billion": 46.0,
+      "cash_capex_2026_guidance_usd_billion": 220,
+      "TTM_operating_cash_flow_usd_billion": 168.3,
+      "TTM_free_cash_flow_usd_billion": -42.357,
+      "source_id": "amazon_q3_current"
+    },
+    "intel_guidance": {
+      "period": "2026Q4",
+      "revenue_guidance_usd_billion": [
+        15,
+        16
+      ],
+      "revenue_guidance_midpoint_usd_billion": 15.5,
+      "nonGAAP_EPS_guidance_usd": 0.25,
+      "GAAP_EPS_guidance_usd": 0.1,
+      "source_id": "intel_q3_current",
+      "consensus_revenue_usd_billion": 17.07,
+      "consensus_nonGAAP_EPS_usd": 0.43,
+      "consensus_source": {
+        "id": "intel_consensus",
+        "title": "Intel shares tumble after hours, hit by chip supply constraints, big cash burn",
+        "url": "https://www.investing.com/news/stock-market-news/intel-signals-slower-growth-as-pc-market-remains-under-pressure-4984967",
+        "date": "2026-10-29",
+        "source_type": "Reuters；LSEG预期",
+        "claims": {
+          "Q4_revenue_consensus_usd_billion": 17.07,
+          "Q4_adjusted_EPS_consensus": 0.43,
+          "midpoint_shortfall_percent": 9.2
+        },
+        "match_status": "verified",
+        "limitations": "市场预期为第三方共识；工厂事故不是整个AI行业需求的共同证据。",
+        "images": []
+      }
+    },
+    "quarterly_revenue_operating_income_note": "保持原图2026Q1/Q2，不称最新季度。Reuters 10月15日另报道Anthropic Q3收入168亿美元（媒体披露，非本图期间）。",
+    "optional_unplotted_chips_oct30": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "date": "2026-10-30",
+        "close_usd": 326.08,
+        "day_change_pct": -5.48,
+        "source_id": "avgo_history_current"
+      }
+    ]
+  },
+  "openai_funding_interpretation": {
+    "original_quote_preserve": "OpenAI恐只能融到预期规模的三分之一",
+    "reported_secured_commitments_usd_billion": 11,
+    "original_target_usd_billion": 30,
+    "secured_fraction_of_original_target_pct": 36.6667,
+    "revised_target_usd_billion": 20,
+    "source_ids": [
+      "openai_oct_commitments",
+      "openai_oct_revised_target"
+    ],
+    "footnote": "WSJ报道当时已获约110亿美元承诺，约原300亿目标的36.7%；FT/Reuters报道新目标为200亿美元，仍在募集。原句可保留，勿把当前承诺进度当作最终募集结果。"
+  },
+  "anthropic_credit_interpretation": {
+    "post_ipo_expected_rating": "BB档/高垃圾级",
+    "prediction_source_id": "anthropic_rating_expectation",
+    "prediction_status": "Blackstone预期，不是三大评级机构已经出具评级",
+    "reported_kbra_issuer_rating": "BB+",
+    "kbra_rating_date": "2026-06",
+    "kbra_report_source_id": "anthropic_kbra_prior",
+    "kbra_status": "据FT查阅文件，未取得KBRA公开原评级报告",
+    "footnote": "10/30消息是黑石对上市后评级的预期；FT另报道KBRA于6月给过发行人BB+，不得与上市后三大机构或North Star项目债评级混称。"
+  },
+  "minimal_footnotes": {
+    "openai_fundraising": "口径：WSJ称当时已获约110亿美元承诺（约原300亿目标36.7%）；FT/Reuters称新目标为200亿美元，仍在募集。",
+    "anthropic_rating": "口径：此处为黑石对上市后评级的预期，尚非三大机构正式评级；FT另报道KBRA此前给过BB+。",
+    "revenue_operating_income": "Anthropic据S-1，OpenAI据WSJ报道；营业利润含股权薪酬，不等于净利润或现金流。",
+    "revenue_mix": "按用户原图读数重绘，约数；SemiAnalysis估计含预测、期间不同。Anthropic结构图合计95%，未补齐。",
+    "financing": "2026年上市后净募集资金，含IPO及绿鞋、增发和可转债；已扣公告披露费用。可转债单列。",
+    "china_h1": "2026H1；智谱金额为人民币、MiniMax为美元。扩大的是非IFRS调整后净亏损，两家IFRS期内亏损均收窄；毛利/研发据财报计算。",
+    "stock_prices": "港元；发行价、盘中年内高点与收盘价为不同类型价位。最新为11月2日收盘；涨跌幅按价位计算。",
+    "cash_flow": "Alphabet为Q3单季度，Amazon为截至Q3过去12个月，均为公司定义的自由现金流，周期不同。",
+    "intel": "指引为2026Q4预测，市场预期为第三方共识。",
+    "market": "美东2026年10月30日收盘；日涨跌与周涨跌分列。",
+    "annualized_run_rate": "年化运行率不是全年已实现收入；两家公司统计时点和云渠道会计口径不同。"
+  },
+  "remaining_limits": [
+    "收入结构两图的精确数值无法在付费研究正文独立复核，须保留读图约数与预测标签。",
+    "完整三年算力容量仅按用户图9保留，不称已验证。",
+    "Alphabet“现金流预期接近盈亏平衡”未获得原始预期数据；原句保留时应作为用户叙述，与已披露实际FCF分开。",
+    "不要把少数公司财报与股价下跌解释为已证明整个行业泡沫破裂；该判断属于用户提纲观点。"
+  ]
+}

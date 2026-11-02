@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "single_h1": true,
+    "no_summary": true,
+    "overview": true,
+    "part2_title": true,
+    "sol_five_rows": true,
+    "four_sol_columns": true,
+    "three_factors": true,
+    "three_emphasized": true,
+    "five_final_articles": true,
+    "no_data_raster": true,
+    "all_fonts_embedded": true,
+    "no_remote_src": true,
+    "no_external_scripts": true,
+    "no_body_style": true,
+    "unique_ids": true,
+    "no_internal_heading": true
+  },
+  "progress_records": 92,
+  "progress_companies": 17,
+  "cost_records": 35,
+  "browser": {
+    "desktop_px": 1363,
+    "mobile_viewport_px": 390,
+    "mobile_root_client_width": 375,
+    "mobile_root_scroll_width": 375,
+    "dialog_escape_focus_return": true,
+    "svg_enter_focus_restored": true,
+    "font": "Ma Shan Zheng"
+  },
+  "untested": [
+    "real touch device",
+    "physical printer"
+  ]
+}
